@@ -10,13 +10,14 @@ The post url is taken from the form action.
 ## Usage
 ========================
 
-//this will attach it to all forms on that page
-$('form').bootstrapAjaxForm();  
+Attach to all forms on the page / site
+```javascript $('form').bootstrapAjaxForm(); ```
 
-//to a specific form of id = "signup-form"
-$('#signup-form').bootstrapAjaxForm();  
+Attach to specific form of id = "signup-form"
+```javascript  $('#signup-form').bootstrapAjaxForm();  ```
 
-//advanced use, turning some features on and off:
+//advanced use, turning some features off:
+```javascript 
 $('form').bootstrapAjaxForm({
   fieldFeedback: true,
   fieldHighlighting: true,
@@ -24,7 +25,7 @@ $('form').bootstrapAjaxForm({
   alertMessages: false,
   hideFormOnSuccess: false,
 }); 
-
+```
 
 ## JSON Response Format
 ========================
