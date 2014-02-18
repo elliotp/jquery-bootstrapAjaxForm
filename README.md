@@ -11,10 +11,14 @@ The post url is taken from the form action.
 ========================
 
 Attach to all forms on the page / site
-```javascript $('form').bootstrapAjaxForm(); ```
+```javascript 
+$('form').bootstrapAjaxForm(); 
+```
 
 Attach to specific form of id = "signup-form"
-```javascript  $('#signup-form').bootstrapAjaxForm();  ```
+```javascript  
+$('#signup-form').bootstrapAjaxForm();  
+```
 
 Advanced use, turning some features off.
 ```javascript 
