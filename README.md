@@ -16,7 +16,7 @@ Attach to all forms on the page / site
 Attach to specific form of id = "signup-form"
 ```javascript  $('#signup-form').bootstrapAjaxForm();  ```
 
-//advanced use, turning some features off:
+Advanced use, turning some features off.
 ```javascript 
 $('form').bootstrapAjaxForm({
   fieldFeedback: true,
